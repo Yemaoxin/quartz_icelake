@@ -17,7 +17,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #include <stdio.h>
 #include <stddef.h>
 #include "gtest/gtest.h"
-
+#include <cerrno>
 #define MAX_NUM_THREADS 128
 
 void* worker(void* args) 

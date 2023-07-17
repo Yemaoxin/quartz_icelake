@@ -14,7 +14,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #define _GNU_SOURCE
 #include <pthread.h>
 #include <sched.h>
-
+#include <cerrno>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

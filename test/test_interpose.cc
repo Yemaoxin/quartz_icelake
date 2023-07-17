@@ -15,7 +15,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #include <stdlib.h>
 #include <stdio.h>
 #include "gtest/gtest.h"
-
+#include <cerrno>
 static int interpose_pthread_create_success = 0;
 
 

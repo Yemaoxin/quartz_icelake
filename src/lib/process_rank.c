@@ -23,7 +23,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #include "model.h"
 #include "error.h"
 
-#define EMUL_LOCAL_PROCESSES_VAR "EMUL_LOCAL_PROCESSES"
+#define EMUL_LOCAL_PROCESSES_VAR ""
 
 #define EMUL_LOCK_FILE "/tmp/emul_lock_file"
 #define EMUL_PROCESS_LOCAL_RANK_FILE "/tmp/emul_process_local_rank"

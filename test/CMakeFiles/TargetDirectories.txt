@@ -1,0 +1,4 @@
+/home/ymx/quartz/test/CMakeFiles/test_nvm_remote_dram.dir
+/home/ymx/quartz/test/CMakeFiles/test_nvm.dir
+/home/ymx/quartz/test/CMakeFiles/edit_cache.dir
+/home/ymx/quartz/test/CMakeFiles/rebuild_cache.dir

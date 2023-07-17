@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/new_memlat.dir/memlat.c.o -o new_memlat  -Wl,-rpath,/home/ymx/quartz/build/src/lib ../../src/lib/libnvmemul.so -lpthread -ldl -lconfig -lnuma -lrt -lm -lgomp 

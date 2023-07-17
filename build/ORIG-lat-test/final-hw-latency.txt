@@ -1,0 +1,2 @@
+#FORMAT:#1_min #2_aver #3_max
+ 0 0

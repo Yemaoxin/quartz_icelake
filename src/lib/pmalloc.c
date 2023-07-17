@@ -25,6 +25,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
 void* pmalloc(size_t size)
 {
+     // 声明自己的线程
     thread_t* thread = thread_self();
 
     if (thread == NULL) {

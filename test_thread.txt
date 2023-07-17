@@ -1,0 +1,33 @@
+Turbo Boost disabled for all CPUs
+2
+scripts/../build/src/lib/libnvmemul.so
+scripts/../nvmemul.ini
+Use time 24556842us
+
+
+===== STATISTICS (Mon Jul 17 11:32:16 2023) =====
+
+PID: 40389
+Initialization duration: 2628354 usec
+Running threads: 0
+Terminated threads: 1
+
+== Running threads == 
+
+== Terminated threads == 
+	Thread id [40389]
+		: cpu id: 0
+		: spawn timestamp: 7918478182
+		: termination timestamp: 7944536436
+		: execution time: 26058254 usecs
+		: stall cycles: 100747571
+		: NVM accesses: 227935
+		: latency calculation overhead cycles: 22959
+		: injected delay cycles: 43829859
+		: injected delay in usec: 16857
+		: longest epoch duration: 24090 usec
+		: shortest epoch duration: 10004 usec
+		: average epoch duration: 10046 usec
+		: number of epochs: 2594
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 2594

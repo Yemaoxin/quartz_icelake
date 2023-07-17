@@ -14,6 +14,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #include <pthread.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <cerrno>
 #include "gtest/gtest.h"
 #include "pmalloc.h"
 

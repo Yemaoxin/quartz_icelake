@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/test_nvm_remote_dram.dir/test_nvm_remote_dram.o -o test_nvm_remote_dram  -Wl,-rpath,/home/ymx/quartz/build/src/lib /home/ymx/quartz/build/src/lib/libnvmemul.so 

@@ -1,0 +1,45 @@
+latency_ns: 725
+
+
+===== STATISTICS (Mon Jul 17 13:42:15 2023) =====
+
+PID: 58491
+Initialization duration: 2584478 usec
+Running threads: 0
+Terminated threads: 2
+
+== Running threads == 
+
+== Terminated threads == 
+	Thread id [58523]
+		: cpu id: 1
+		: spawn timestamp: 15743494797
+		: termination timestamp: 15744316239
+		: execution time: 821442 usecs
+		: stall cycles: 257418537
+		: NVM accesses: 597258
+		: latency calculation overhead cycles: 0
+		: injected delay cycles: 1293253148
+		: injected delay in usec: 497596
+		: longest epoch duration: 10058 usec
+		: shortest epoch duration: 10009 usec
+		: average epoch duration: 10035 usec
+		: number of epochs: 20
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 20
+	Thread id [58491]
+		: cpu id: 0
+		: spawn timestamp: 15743494184
+		: termination timestamp: 15744316274
+		: execution time: 822090 usecs
+		: stall cycles: 426511
+		: NVM accesses: 989
+		: latency calculation overhead cycles: 1534
+		: injected delay cycles: 2053971
+		: injected delay in usec: 790
+		: longest epoch duration: 18166 usec
+		: shortest epoch duration: 10011 usec
+		: average epoch duration: 10128 usec
+		: number of epochs: 82
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 82

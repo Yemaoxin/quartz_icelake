@@ -212,6 +212,9 @@ cpu_model_t *cpu_model()
             case Haswell:
                 cpu_model = &cpu_model_intel_xeon_ex_v3;
                 break;
+            case IceLake:
+                cpu_model = &cpu_model_intel_xeon_ex_v4;
+                break;
             default:
                 return NULL;
             }

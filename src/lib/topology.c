@@ -97,8 +97,12 @@ int get_mc_pci_bus_list(pci_regs_t *bus_id_list[], int max_list_size, int* dev_c
     }
 
     for (dev_count=0; fgets(buf, sizeof(buf)-1, fp) != NULL; ) {
-        if (strstr(buf, "Thermal Control")) {
+        // 似乎在新的系统中只有 00:14.2 Intel Corporation C620 Series Chipset Family Thermal Subsystem  （rev 0a)
+        // 但是只有一个
+        if (strstr(buf, "Thermal")) {
+            // 进一步得到的是00:14.2 string
             if (sscanf(buf, "%x:%x.%x %s", &bus_id, &dev_id, &funct, dontcare) == 4) {
+                // printf("We get one PCI Controller\n");
                 if (bus_id != last_bus_id) {
                     ++dev_count;
                     last_bus_id = bus_id;

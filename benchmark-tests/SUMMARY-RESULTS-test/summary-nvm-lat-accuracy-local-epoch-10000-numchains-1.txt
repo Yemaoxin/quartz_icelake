@@ -1,0 +1,1 @@
+#FORMAT #1_emul_lat(ns) #2_min_meas_lat(ns)  #3_aver_meas_lat(ns)  #4_max_meas_lat(ns)  #5_aver_error(%) #6_max_error(%)

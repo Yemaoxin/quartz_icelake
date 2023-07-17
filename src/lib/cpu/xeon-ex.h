@@ -17,10 +17,12 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #include "sandybridge-papi.h"
 #include "ivybridge-papi.h"
 #include "haswell-papi.h"
+#include "icelake-papi.h"
 #else
 #include "sandybridge.h"
 #include "ivybridge.h"
 #include "haswell.h"
+#include "icelake.h"
 #endif
 
 int intel_xeon_ex_set_throttle_register(pci_regs_t *regs, throttle_type_t throttle_type, uint16_t val)
@@ -106,6 +108,17 @@ cpu_model_t cpu_model_intel_xeon_ex_v3 = {
     .pmc_events = {haswell_native_events, haswell_read_stall_events_local, haswell_read_stall_events_remote},
 #else
     .pmc_events = PMC_EVENTS_PTR(haswell),
+#endif
+    .set_throttle_register = intel_xeon_ex_set_throttle_register,
+    .get_throttle_register = intel_xeon_ex_get_throttle_register
+};
+
+cpu_model_t cpu_model_intel_xeon_ex_v4 = {
+    .microarch = IceLakeXeon,
+#ifdef PAPI_SUPPORT
+    .pmc_events = {icelake_native_events, icelake_read_stall_events_local, icelake_read_stall_events_remote},
+#else
+    .pmc_events = PMC_EVENTS_PTR(icelake),
 #endif
     .set_throttle_register = intel_xeon_ex_set_throttle_register,
     .get_throttle_register = intel_xeon_ex_get_throttle_register
