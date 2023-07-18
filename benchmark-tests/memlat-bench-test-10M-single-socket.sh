@@ -53,8 +53,7 @@ cp nvmemul-orig.ini nvmemul.ini
 		
 		for time in 1 2 3 4 5 6 7 8 9 10
 		do
-		# add EMUL_LOCAL_PROCESSES
-		EMUL_LOCAL_PROCESSES=1    ../build/bench/memlat/memlat 1 1 $numchains 10000000 64 8 0 0 >> $dir_name_res/full_results-$lat-$epoch-$numchains.txt
+		    ../build/bench/memlat/memlat 1 1 $numchains 10000000 64 8 0 0 >> $dir_name_res/full_results-$lat-$epoch-$numchains.txt
  		done
                 grep latency_ns $dir_name_res/full_results-$lat-$epoch-$numchains.txt > $dir_name_res/results-$lat-$epoch-$numchains.txt
 		awk 'BEGIN {max = 0; min = 1000000; sum = 0; aver=0.0; max_error=0.0; aver_error=0.0;read_lat = substr(ARGV[2],3);epoch_lat = substr(ARGV[3],3); MPL = substr(ARGV[4],3); }
@@ -71,6 +70,3 @@ END {aver=sum/NR; if (aver < read_lat*1.0) {aver_error = (read_lat - aver)*100.0
 #FORMAT_summary-results: #1_nvm_lat(ns) #2_min_nvm_lat(ns)  #3_aver_nvm_lat(ns)  #4_max_nvm_lat(ns)  #5_aver_error(%) #6_max_error(%)
 
 #parameter is nvm_lat
-
-
-
