@@ -70,3 +70,6 @@ END {aver=sum/NR; if (aver < read_lat*1.0) {aver_error = (read_lat - aver)*100.0
 #FORMAT_summary-results: #1_nvm_lat(ns) #2_min_nvm_lat(ns)  #3_aver_nvm_lat(ns)  #4_max_nvm_lat(ns)  #5_aver_error(%) #6_max_error(%)
 
 #parameter is nvm_lat
+
+
+

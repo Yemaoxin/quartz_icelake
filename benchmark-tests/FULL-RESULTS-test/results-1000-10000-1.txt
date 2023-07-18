@@ -1,0 +1,10 @@
+latency_ns: 1072
+latency_ns: 1110
+latency_ns: 1110
+latency_ns: 1080
+latency_ns: 1110
+latency_ns: 1110
+latency_ns: 1109
+latency_ns: 1109
+latency_ns: 1109
+latency_ns: 1110

@@ -1,0 +1,10 @@
+latency_ns: 755
+latency_ns: 762
+latency_ns: 776
+latency_ns: 761
+latency_ns: 762
+latency_ns: 769
+latency_ns: 761
+latency_ns: 762
+latency_ns: 776
+latency_ns: 762

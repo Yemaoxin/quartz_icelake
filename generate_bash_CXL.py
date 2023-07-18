@@ -11,31 +11,33 @@ workloads = [
     # "workloadf"
 ]
 
+Memory_types= [
+    'DRAM',
+    "CXL"
+]
+
 # quartz没办法通过外部参数实现设置内存,这一点很麻烦的嘞
-distribution = [
-    
+distributions = [
+    'uniform',
+    'zipfian'
 ]
 
 if __name__ == "__main__":
-    # 必要的涉及，需要将所有CPU设置成为性能模式
-    for cpu_index in range(0,32):
-        print("cat /sys/devices/system/cpu/cpu{}/cpufreq/scaling_governor".format(cpu_index))
-        print("sudo echo \"performance\" >  /sys/devices/system/cpu/cpu{}/cpufreq/scaling_governor".format(cpu_index))
-        print("cat /sys/devices/system/cpu/cpu{}/cpufreq/scaling_governor".format(cpu_index))
-    for workload in workloads:
-        for epoch in epoch_time:
-            for memory in memory_allocate:
-                print("sudo pkill -9 CXL-MEM-Simulator")
+
+    for memory in memory_allocate:
+        for distribution in distributions:
+            for workload in workloads:    
+                
                 print("sudo pkill -9 memcached")
                 print(
                     "echo \"astl402\" | sudo -S lsof -l -i tcp:11212 | awk '{if (NR>1){print $2}}' |sudo xargs kill -9")
                 print(
                     "echo \"astl402\" | sudo -S ps -aux| grep 11212 | awk '{print $2}'|sudo xargs kill -9")
                 print("sudo pkill -9 python2")
-                Result_Dir = "/home/ymx/CXLMemSim-main/Memcached_CXLSim/{}-epoch-{}".format(
-                    memory,epoch)
+                Result_Dir = "/home/ymx/Memcached_DRAM_CXL/{}/distribution-{}".format(
+                    memory,distribution)
                 print("mkdir -p {}".format(Result_Dir))
-                print("sleep 5")
+                print("sleep 2")
                 Sim_LOG_txt = Result_Dir + "/{}_LOG.txt".format(workload)
                 Load_Result_txt = Result_Dir + "/{}_load.txt".format(workload)
                 Run_Result_txt = Result_Dir + "/{}_run.txt".format(workload)
@@ -53,11 +55,3 @@ if __name__ == "__main__":
                 print(YCSB_load_cmd)
                 print("sleep 5")
                 # print(YCSB_run_cmd)
-    
-    for cpu_index in range(0,32):
-        print("cat /sys/devices/system/cpu/cpu{}/cpufreq/scaling_governor".format(cpu_index))
-        print("sudo echo \"ondemand\" >  /sys/devices/system/cpu/cpu{}/cpufreq/scaling_governor".format(cpu_index))
-        print("cat /sys/devices/system/cpu/cpu{}/cpufreq/scaling_governor".format(cpu_index))
-    print("sudo pkill -9 CXL-MEM-Simulator")
-    print("sudo pkill -9 memcached")
-    print("sudo pkill -9 python2")

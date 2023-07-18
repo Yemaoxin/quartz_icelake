@@ -1,0 +1,450 @@
+latency_ns: 216
+
+
+===== STATISTICS (Tue Jul 18 02:20:27 2023) =====
+
+PID: 80060
+Initialization duration: 1119676 usec
+Running threads: 0
+Terminated threads: 2
+
+== Running threads == 
+
+== Terminated threads == 
+	Thread id [80062]
+		: cpu id: 1
+		: spawn timestamp: 61232628716
+		: termination timestamp: 61235744719
+		: execution time: 3116003 usecs
+		: stall cycles: 3014226760
+		: NVM accesses: 10358167
+		: latency calculation overhead cycles: 0
+		: injected delay cycles: 2367986978
+		: injected delay in usec: 910764
+		: longest epoch duration: 11518 usec
+		: shortest epoch duration: 10003 usec
+		: average epoch duration: 10036 usec
+		: number of epochs: 197
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 197
+	Thread id [80060]
+		: cpu id: 0
+		: spawn timestamp: 61232618190
+		: termination timestamp: 61235744743
+		: execution time: 3126553 usecs
+		: stall cycles: 1440912
+		: NVM accesses: 4951
+		: latency calculation overhead cycles: 3921
+		: injected delay cycles: 821661
+		: injected delay in usec: 316
+		: longest epoch duration: 26541 usec
+		: shortest epoch duration: 10005 usec
+		: average epoch duration: 10094 usec
+		: number of epochs: 312
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 312
+latency_ns: 213
+
+
+===== STATISTICS (Tue Jul 18 02:20:31 2023) =====
+
+PID: 80086
+Initialization duration: 1136209 usec
+Running threads: 0
+Terminated threads: 2
+
+== Running threads == 
+
+== Terminated threads == 
+	Thread id [80102]
+		: cpu id: 1
+		: spawn timestamp: 61236960706
+		: termination timestamp: 61239989989
+		: execution time: 3029283 usecs
+		: stall cycles: 2953225984
+		: NVM accesses: 10079269
+		: latency calculation overhead cycles: 0
+		: injected delay cycles: 2273384423
+		: injected delay in usec: 874378
+		: longest epoch duration: 10058 usec
+		: shortest epoch duration: 10004 usec
+		: average epoch duration: 10031 usec
+		: number of epochs: 193
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 193
+	Thread id [80086]
+		: cpu id: 0
+		: spawn timestamp: 61236950189
+		: termination timestamp: 61239990010
+		: execution time: 3039821 usecs
+		: stall cycles: 1207711
+		: NVM accesses: 4121
+		: latency calculation overhead cycles: 2772
+		: injected delay cycles: 633489
+		: injected delay in usec: 243
+		: longest epoch duration: 21662 usec
+		: shortest epoch duration: 10005 usec
+		: average epoch duration: 10075 usec
+		: number of epochs: 303
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 303
+latency_ns: 215
+
+
+===== STATISTICS (Tue Jul 18 02:20:35 2023) =====
+
+PID: 80111
+Initialization duration: 1135002 usec
+Running threads: 0
+Terminated threads: 2
+
+== Running threads == 
+
+== Terminated threads == 
+	Thread id [80128]
+		: cpu id: 1
+		: spawn timestamp: 61241204713
+		: termination timestamp: 61244253349
+		: execution time: 3048636 usecs
+		: stall cycles: 2952583251
+		: NVM accesses: 10146334
+		: latency calculation overhead cycles: 0
+		: injected delay cycles: 2319554088
+		: injected delay in usec: 892136
+		: longest epoch duration: 10059 usec
+		: shortest epoch duration: 10005 usec
+		: average epoch duration: 10032 usec
+		: number of epochs: 193
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 193
+	Thread id [80111]
+		: cpu id: 0
+		: spawn timestamp: 61241194186
+		: termination timestamp: 61244253373
+		: execution time: 3059187 usecs
+		: stall cycles: 1216655
+		: NVM accesses: 4180
+		: latency calculation overhead cycles: 15253
+		: injected delay cycles: 666897
+		: injected delay in usec: 256
+		: longest epoch duration: 22665 usec
+		: shortest epoch duration: 10005 usec
+		: average epoch duration: 10076 usec
+		: number of epochs: 305
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 305
+latency_ns: 213
+
+
+===== STATISTICS (Tue Jul 18 02:20:40 2023) =====
+
+PID: 80146
+Initialization duration: 1142982 usec
+Running threads: 0
+Terminated threads: 2
+
+== Running threads == 
+
+== Terminated threads == 
+	Thread id [80171]
+		: cpu id: 1
+		: spawn timestamp: 61245464699
+		: termination timestamp: 61248492735
+		: execution time: 3028036 usecs
+		: stall cycles: 2958824062
+		: NVM accesses: 10098375
+		: latency calculation overhead cycles: 0
+		: injected delay cycles: 2277693277
+		: injected delay in usec: 876035
+		: longest epoch duration: 12895 usec
+		: shortest epoch duration: 10004 usec
+		: average epoch duration: 10048 usec
+		: number of epochs: 193
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 193
+	Thread id [80146]
+		: cpu id: 0
+		: spawn timestamp: 61245454186
+		: termination timestamp: 61248492763
+		: execution time: 3038577 usecs
+		: stall cycles: 1224033
+		: NVM accesses: 4177
+		: latency calculation overhead cycles: 7264
+		: injected delay cycles: 656060
+		: injected delay in usec: 252
+		: longest epoch duration: 23987 usec
+		: shortest epoch duration: 10005 usec
+		: average epoch duration: 10089 usec
+		: number of epochs: 303
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 303
+latency_ns: 218
+
+
+===== STATISTICS (Tue Jul 18 02:20:44 2023) =====
+
+PID: 80187
+Initialization duration: 1112569 usec
+Running threads: 0
+Terminated threads: 2
+
+== Running threads == 
+
+== Terminated threads == 
+	Thread id [80189]
+		: cpu id: 1
+		: spawn timestamp: 61249684707
+		: termination timestamp: 61252772988
+		: execution time: 3088281 usecs
+		: stall cycles: 2979816885
+		: NVM accesses: 10346586
+		: latency calculation overhead cycles: 0
+		: injected delay cycles: 2388889794
+		: injected delay in usec: 919157
+		: longest epoch duration: 10472 usec
+		: shortest epoch duration: 10003 usec
+		: average epoch duration: 10033 usec
+		: number of epochs: 194
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 194
+	Thread id [80187]
+		: cpu id: 0
+		: spawn timestamp: 61249674188
+		: termination timestamp: 61252773017
+		: execution time: 3098829 usecs
+		: stall cycles: 1320799
+		: NVM accesses: 4586
+		: latency calculation overhead cycles: 10610
+		: injected delay cycles: 761460
+		: injected delay in usec: 292
+		: longest epoch duration: 21768 usec
+		: shortest epoch duration: 10004 usec
+		: average epoch duration: 10081 usec
+		: number of epochs: 309
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 309
+latency_ns: 217
+
+
+===== STATISTICS (Tue Jul 18 02:20:48 2023) =====
+
+PID: 80228
+Initialization duration: 1119206 usec
+Running threads: 0
+Terminated threads: 2
+
+== Running threads == 
+
+== Terminated threads == 
+	Thread id [80230]
+		: cpu id: 1
+		: spawn timestamp: 61253972713
+		: termination timestamp: 61257045052
+		: execution time: 3072339 usecs
+		: stall cycles: 2981545050
+		: NVM accesses: 10245859
+		: latency calculation overhead cycles: 0
+		: injected delay cycles: 2342317377
+		: injected delay in usec: 900891
+		: longest epoch duration: 10059 usec
+		: shortest epoch duration: 10005 usec
+		: average epoch duration: 10031 usec
+		: number of epochs: 194
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 194
+	Thread id [80228]
+		: cpu id: 0
+		: spawn timestamp: 61253962188
+		: termination timestamp: 61257045079
+		: execution time: 3082891 usecs
+		: stall cycles: 1330174
+		: NVM accesses: 4571
+		: latency calculation overhead cycles: 5752
+		: injected delay cycles: 723678
+		: injected delay in usec: 278
+		: longest epoch duration: 23279 usec
+		: shortest epoch duration: 10005 usec
+		: average epoch duration: 10083 usec
+		: number of epochs: 308
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 308
+latency_ns: 216
+
+
+===== STATISTICS (Tue Jul 18 02:20:52 2023) =====
+
+PID: 80269
+Initialization duration: 1135164 usec
+Running threads: 0
+Terminated threads: 2
+
+== Running threads == 
+
+== Terminated threads == 
+	Thread id [80271]
+		: cpu id: 1
+		: spawn timestamp: 61258260714
+		: termination timestamp: 61261324983
+		: execution time: 3064269 usecs
+		: stall cycles: 2978148917
+		: NVM accesses: 10234188
+		: latency calculation overhead cycles: 0
+		: injected delay cycles: 2339645479
+		: injected delay in usec: 899863
+		: longest epoch duration: 10059 usec
+		: shortest epoch duration: 10005 usec
+		: average epoch duration: 10030 usec
+		: number of epochs: 194
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 194
+	Thread id [80269]
+		: cpu id: 0
+		: spawn timestamp: 61258250186
+		: termination timestamp: 61261325003
+		: execution time: 3074817 usecs
+		: stall cycles: 1365551
+		: NVM accesses: 4692
+		: latency calculation overhead cycles: 14589
+		: injected delay cycles: 772043
+		: injected delay in usec: 296
+		: longest epoch duration: 23363 usec
+		: shortest epoch duration: 10006 usec
+		: average epoch duration: 10077 usec
+		: number of epochs: 307
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 307
+latency_ns: 214
+
+
+===== STATISTICS (Tue Jul 18 02:20:57 2023) =====
+
+PID: 80307
+Initialization duration: 1136534 usec
+Running threads: 0
+Terminated threads: 2
+
+== Running threads == 
+
+== Terminated threads == 
+	Thread id [80309]
+		: cpu id: 1
+		: spawn timestamp: 61262540704
+		: termination timestamp: 61265582631
+		: execution time: 3041927 usecs
+		: stall cycles: 2979529344
+		: NVM accesses: 10169042
+		: latency calculation overhead cycles: 0
+		: injected delay cycles: 2293639862
+		: injected delay in usec: 882169
+		: longest epoch duration: 10059 usec
+		: shortest epoch duration: 10005 usec
+		: average epoch duration: 10033 usec
+		: number of epochs: 194
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 194
+	Thread id [80307]
+		: cpu id: 0
+		: spawn timestamp: 61262530187
+		: termination timestamp: 61265582653
+		: execution time: 3052466 usecs
+		: stall cycles: 1288165
+		: NVM accesses: 4396
+		: latency calculation overhead cycles: 5921
+		: injected delay cycles: 696268
+		: injected delay in usec: 267
+		: longest epoch duration: 22706 usec
+		: shortest epoch duration: 10005 usec
+		: average epoch duration: 10083 usec
+		: number of epochs: 304
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 304
+latency_ns: 215
+
+
+===== STATISTICS (Tue Jul 18 02:21:01 2023) =====
+
+PID: 80333
+Initialization duration: 1122129 usec
+Running threads: 0
+Terminated threads: 2
+
+== Running threads == 
+
+== Terminated threads == 
+	Thread id [80349]
+		: cpu id: 1
+		: spawn timestamp: 61266784713
+		: termination timestamp: 61269832968
+		: execution time: 3048255 usecs
+		: stall cycles: 2951748452
+		: NVM accesses: 10143465
+		: latency calculation overhead cycles: 0
+		: injected delay cycles: 2318905735
+		: injected delay in usec: 891886
+		: longest epoch duration: 10060 usec
+		: shortest epoch duration: 10004 usec
+		: average epoch duration: 10031 usec
+		: number of epochs: 193
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 193
+	Thread id [80333]
+		: cpu id: 0
+		: spawn timestamp: 61266774189
+		: termination timestamp: 61269832995
+		: execution time: 3058806 usecs
+		: stall cycles: 1142833
+		: NVM accesses: 3927
+		: latency calculation overhead cycles: 9465
+		: injected delay cycles: 616996
+		: injected delay in usec: 237
+		: longest epoch duration: 21507 usec
+		: shortest epoch duration: 10005 usec
+		: average epoch duration: 10080 usec
+		: number of epochs: 305
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 305
+latency_ns: 213
+
+
+===== STATISTICS (Tue Jul 18 02:21:05 2023) =====
+
+PID: 80350
+Initialization duration: 1135204 usec
+Running threads: 0
+Terminated threads: 2
+
+== Running threads == 
+
+== Terminated threads == 
+	Thread id [80367]
+		: cpu id: 1
+		: spawn timestamp: 61271048710
+		: termination timestamp: 61274077525
+		: execution time: 3028815 usecs
+		: stall cycles: 2955029409
+		: NVM accesses: 10085424
+		: latency calculation overhead cycles: 0
+		: injected delay cycles: 2274792841
+		: injected delay in usec: 874920
+		: longest epoch duration: 10058 usec
+		: shortest epoch duration: 10005 usec
+		: average epoch duration: 10033 usec
+		: number of epochs: 193
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 193
+	Thread id [80350]
+		: cpu id: 0
+		: spawn timestamp: 61271038187
+		: termination timestamp: 61274077555
+		: execution time: 3039368 usecs
+		: stall cycles: 1095407
+		: NVM accesses: 3738
+		: latency calculation overhead cycles: 30428
+		: injected delay cycles: 571421
+		: injected delay in usec: 219
+		: longest epoch duration: 21098 usec
+		: shortest epoch duration: 10005 usec
+		: average epoch duration: 10075 usec
+		: number of epochs: 303
+		: epochs which didn't reach min duration: 0
+		: static epochs requested: 303

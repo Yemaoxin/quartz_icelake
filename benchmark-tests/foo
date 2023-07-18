@@ -1,45 +1,45 @@
-latency_ns: 731
+latency_ns: 82
 
 
-===== STATISTICS (Tue Jul 18 01:56:07 2023) =====
+===== STATISTICS (Tue Jul 18 02:20:23 2023) =====
 
-PID: 75697
-Initialization duration: 2584838 usec
+PID: 80008
+Initialization duration: 2646091 usec
 Running threads: 0
 Terminated threads: 2
 
 == Running threads == 
 
 == Terminated threads == 
-	Thread id [75739]
+	Thread id [80057]
 		: cpu id: 1
-		: spawn timestamp: 59775150793
-		: termination timestamp: 59775978763
-		: execution time: 827970 usecs
-		: stall cycles: 262793588
-		: NVM accesses: 605515
-		: latency calculation overhead cycles: 0
-		: injected delay cycles: 1310781020
-		: injected delay in usec: 504146
+		: spawn timestamp: 61231268890
+		: termination timestamp: 61231425499
+		: execution time: 156609 usecs
+		: stall cycles: 32028
+		: NVM accesses: 72
+		: latency calculation overhead cycles: 11992
+		: injected delay cycles: 140184
+		: injected delay in usec: 53
 		: longest epoch duration: 10055 usec
-		: shortest epoch duration: 10013 usec
-		: average epoch duration: 10030 usec
-		: number of epochs: 20
+		: shortest epoch duration: 10007 usec
+		: average epoch duration: 10037 usec
+		: number of epochs: 15
 		: epochs which didn't reach min duration: 0
-		: static epochs requested: 20
-	Thread id [75697]
+		: static epochs requested: 15
+	Thread id [80008]
 		: cpu id: 0
-		: spawn timestamp: 59775150185
-		: termination timestamp: 59775978799
-		: execution time: 828614 usecs
-		: stall cycles: 419165
-		: NVM accesses: 965
-		: latency calculation overhead cycles: 5578
-		: injected delay cycles: 2017289
-		: injected delay in usec: 775
-		: longest epoch duration: 17777 usec
-		: shortest epoch duration: 10006 usec
-		: average epoch duration: 10131 usec
-		: number of epochs: 83
+		: spawn timestamp: 61231258188
+		: termination timestamp: 61231425527
+		: execution time: 167339 usecs
+		: stall cycles: 201152
+		: NVM accesses: 458
+		: latency calculation overhead cycles: 0
+		: injected delay cycles: 958066
+		: injected delay in usec: 368
+		: longest epoch duration: 27968 usec
+		: shortest epoch duration: 10009 usec
+		: average epoch duration: 11093 usec
+		: number of epochs: 17
 		: epochs which didn't reach min duration: 0
-		: static epochs requested: 83
+		: static epochs requested: 17
